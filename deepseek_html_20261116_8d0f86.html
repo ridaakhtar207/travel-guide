@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karachi · a quick intro</title>
+  <style>
+    /* ---------- MINIMAL RESET & GLOBAL ---------- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      background: #f9f7f3;
+      color: #1e1e1e;
+      line-height: 1.6;
+      padding: 2rem 1rem;
+    }
+
+    .page {
+      max-width: 780px;
+      margin: 0 auto;
+      background: white;
+      padding: 2rem 2rem 2.5rem;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.03), 0 2px 6px rgba(0, 0, 0, 0.05);
+    }
+
+    /* ---------- TYPOGRAPHY ---------- */
+    h1 {
+      font-size: 2.1rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.75rem;
+      color: #0b3b2c;
+      border-left: 6px solid #2b7a5a;
+      padding-left: 1rem;
+    }
+
+    h2 {
+      font-size: 1.6rem;
+      font-weight: 600;
+      margin-top: 2rem;
+      margin-bottom: 0.75rem;
+      color: #1e3e2e;
+      letter-spacing: -0.01em;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+      color: #1c2e25;
+    }
+
+    p {
+      margin-bottom: 1rem;
+      color: #2c2c2c;
+    }
+
+    /* ---------- INTRO ---------- */
+    .intro {
+      font-size: 1.04rem;
+      background: #f0f7f3;
+      padding: 1.5rem 1.5rem 1rem;
+      border-radius: 16px;
+      margin-bottom: 1.75rem;
+      border: 1px solid #d8e8df;
+    }
+
+    .intro p {
+      margin-bottom: 0;
+    }
+
+    /* ---------- ATTRACTIONS ---------- */
+    .attractions {
+      list-style: none;
+      margin: 1.25rem 0 0.5rem;
+    }
+
+    .attractions li {
+      background: #ffffff;
+      border: 1px solid #e3e9e5;
+      border-radius: 14px;
+      padding: 1.25rem 1.25rem 1rem;
+      margin-bottom: 1rem;
+      transition: border 0.15s ease, background 0.15s ease;
+    }
+
+    .attractions li:hover {
+      border-color: #b7d2c4;
+      background: #fcfdfb;
+    }
+
+    .attractions li p {
+      margin-bottom: 0;
+      font-size: 0.98rem;
+    }
+
+    .attractions strong {
+      color: #1b5e47;
+      font-weight: 600;
+    }
+
+    /* ---------- LOCAL TIP BOX ---------- */
+    .tip-box {
+      background: #eef5f0;
+      border-left: 8px solid #2b7a5a;
+      border-radius: 12px;
+      padding: 1.4rem 1.6rem;
+      margin-top: 2.25rem;
+    }
+
+    .tip-box h2 {
+      margin-top: 0;
+      margin-bottom: 0.6rem;
+      font-size: 1.35rem;
+      color: #1a3f30;
+    }
+
+    .tip-box p {
+      margin-bottom: 0;
+      font-size: 1rem;
+    }
+
+    /* ---------- SMALL TOUCHES ---------- */
+    .attractions li h3 {
+      display: inline-block;
+      border-bottom: 2px solid #b7d2c4;
+      padding-bottom: 0.15rem;
+      margin-bottom: 0.7rem;
+    }
+
+    .fine-note {
+      font-size: 0.9rem;
+      color: #4a5e55;
+      text-align: center;
+      margin-top: 1.75rem;
+      border-top: 1px solid #dde9e2;
+      padding-top: 1.25rem;
+    }
+
+    /* mobile comfort */
+    @media (max-width: 500px) {
+      .page {
+        padding: 1.5rem 1.25rem;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+        padding-left: 0.8rem;
+      }
+
+      .intro {
+        padding: 1.2rem 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="page">
+    <!-- main heading, optional but fits -->
+    <h1>Karachi, briefly</h1>
+
+    <!-- INTRO SECTION (the 150-word intro from your text) -->
+    <section class="intro">
+      <p>
+        Karachi is Pakistan’s sprawling port megacity on the Arabian Sea, a place where colonial-era architecture, bustling bazaars, and a legendary food scene collide. As the country’s commercial heart, it pulses with energy, drawing diverse communities and offering a raw, unfiltered taste of urban Pakistan. Beyond the traffic and heat lies a city of surprising charm, from serene beaches to grand marble monuments.
+      </p>
+    </section>
+
+    <!-- ATTRACTIONS (three attractions) -->
+    <h2>Three attractions worth your time</h2>
+    <ul class="attractions">
+      <li>
+        <h3>Mazar-e-Quaid</h3>
+        <p>
+          The striking white-marble mausoleum of Pakistan’s founder, Muhammad Ali Jinnah, set in peaceful gardens. It’s a solemn, iconic landmark and a must-see for understanding the nation’s history.
+        </p>
+      </li>
+      <li>
+        <h3>Clifton Beach</h3>
+        <p>
+          The city’s seaside escape along the Arabian Sea. While the water isn’t for swimming, it’s perfect for evening strolls, camel rides, and snacking on local street food while watching the sunset.
+        </p>
+      </li>
+      <li>
+        <h3>Mohatta Palace Museum</h3>
+        <p>
+          Housed in an elegant pink-stone palace, this museum showcases art and cultural exhibits. The building itself, with its intricate architecture and lush gardens, is a photographer’s delight.
+        </p>
+      </li>
+    </ul>
+
+    <!-- LOCAL TIP (one local tip) -->
+    <div class="tip-box">
+      <h2>Local tip</h2>
+      <p>
+        For getting around safely and avoiding haggling in the heat, rely on ride-hailing apps like <strong>Careem</strong> or <strong>Uber</strong> rather than hailing random taxis or rickshaws. It’s affordable, air-conditioned, and saves you the stress of negotiating fares.
+      </p>
+    </div>
+
+    <!-- subtle extra line, just for warmth -->
+    <div class="fine-note">
+      ✦ from the Arabian Sea to the marble domes ✦
+    </div>
+  </div>
+
+</body>
+</html>
